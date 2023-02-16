@@ -6,7 +6,7 @@ sudo apt update
 sudo apt install python3-pip wget git ffmpeg libsm6 libxext6
 ```
 
-Prepare a working place
+Prepare a working place:
 ```
 mkdir Projects
 cd Projects
@@ -26,7 +26,7 @@ And run it:
 ./run.sh [input/dir/with/images] [output/dir]
 ```
 
-Note. For Windows systems disk `C:\\` in WSL can be found at `/mnt/c`, e.g.:
+Note! For Windows systems disk `C:\\` in WSL can be found at `/mnt/c`, e.g.:
 ```
 ls /mnt/c
 ```
